@@ -113,6 +113,7 @@
           <div
             id="card1-marketing"
             class="absolute ml-[10%] rounded-3xl bg-white w-[25%] h-[350px] shadow-2xl mt-[50px] transition duration-[0.2s] ease-in delay-[0.1s] hover:scale-[1.1] hover:cursor-pointer"
+            class="absolute ml-[10%] rounded-3xl bg-white w-[25%] h-[350px] shadow-2xl mt-[50px] transition duration-[0.2s] ease-in delay-[0.1s] hover:scale-[1.1] hover:cursor-pointer"
           >
             <div class="mt-[5%] ml-[5%] mr-[20%] pointer-events-none">
               <h1 class="text-xl font-bold text-black">Advertising</h1>
@@ -128,6 +129,7 @@
           </div>
           <div
             id="card2-marketing"
+            class="absolute ml-[40%] rounded-3xl bg-white w-[25%] h-[350px] shadow-2xl mt-[50px] transition duration-[0.2s] ease-in delay-[0.1s] hover:scale-[1.1] hover:cursor-pointer"
             class="absolute ml-[40%] rounded-3xl bg-white w-[25%] h-[350px] shadow-2xl mt-[50px] transition duration-[0.2s] ease-in delay-[0.1s] hover:scale-[1.1] hover:cursor-pointer"
           >
             <div class="mt-[5%] ml-[5%] mr-[20%] pointer-events-none">
@@ -145,6 +147,7 @@
           <div
             id="card3-marketing"
             class="absolute ml-[70%] rounded-3xl bg-white w-[25%] h-[350px] shadow-2xl mt-[50px] transition duration-[0.2s] ease-in delay-[0.1s] hover:scale-[1.1] hover:cursor-pointer"
+            class="absolute ml-[70%] rounded-3xl bg-white w-[25%] h-[350px] shadow-2xl mt-[50px] transition duration-[0.2s] ease-in delay-[0.1s] hover:scale-[1.1] hover:cursor-pointer"
           >
             <div class="mt-[5%] ml-[5%] mr-[20%] pointer-events-none">
               <h1 class="text-xl font-bold text-black">Viral Tweet</h1>
@@ -159,55 +162,69 @@
           </div>
         </div>
         <!-- Finance Cards here  -->
+        <!-- Finance Cards here  -->
         <div id="finance-cards" class="cards" style="display: none">
           <!-- Add Finance cards here -->
           <div id="finance-cards" class="cards" style="display: none">
             <div
               id="card1-finance"
-              class="absolute ml-[10%] rounded-3xl bg-white w-[25%] h-[350px] shadow-2xl mt-[50px] transition duration-[0.2s] ease-in delay-[0.1s] hover:scale-[1.1] hover:cursor-pointer"
+              class="absolute ml-[10%] rounded-3xl bg-white w-[500px] h-[300px] shadow-2xl mt-[50px] transition duration-[0.2s] ease-in delay-[0.1s] hover:scale-[1.1] hover:cursor-pointer"
             >
               <div class="mt-[5%] ml-[5%] mr-[20%] pointer-events-none">
-                <h1 class="text-xl font-bold text-black">Advertising</h1>
+                <h1 class="text-xl font-bold text-black">Investment</h1>
                 <p class="mt-2 leading-7 text-gray-500">
                   Lorem ipsum dolor sit amet .
                 </p>
               </div>
               <img
-                class="w-full h-[200px] object-contain mt-10"
-                src="../assets/undraw_online_ad_re_ol62.png"
+                class="w-full h-[150px] object-contain mt-8 absolute"
+                src="../assets/undraw_Finance_re_gnv2.png"
                 alt=""
               />
             </div>
             <div
               id="card2-finance"
-              class="absolute ml-[40%] rounded-3xl bg-white w-[25%] h-[350px] shadow-2xl mt-[50px] transition duration-[0.2s] ease-in delay-[0.1s] hover:scale-[1.1] hover:cursor-pointer"
+              class="absolute ml-[55%] rounded-3xl bg-gradient-to-tr from-[#355f7a] to-[#65afa6] gradient-15deg w-[500px] h-[300px] shadow-2xl mt-[50px] transition duration-[0.2s] ease-in delay-[0.1s] hover:scale-[1.1] hover:cursor-pointer hover:shadow-[0_0_10px_#fff]"
             >
               <div class="mt-[5%] ml-[5%] mr-[20%] pointer-events-none">
-                <h1 class="text-xl font-bold text-black">Video Content</h1>
-                <p class="absolute mt-2 leading-7 text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur.
+                <h1 class="text-xl font-bold text-white">Investment</h1>
+                <p class="mt-2 leading-7 text-white">
+                  Lorem ipsum dolor sit amet .
                 </p>
               </div>
-              <img
-                class="w-full h-[200px] object-contain absolute mt-[90px]"
-                src="../assets/undraw_Group_video_re_btu7.png"
-                alt=""
-              />
-            </div>
-            <div
-              id="card3-finance"
-              class="absolute ml-[70%] rounded-3xl bg-white w-[25%] h-[350px] shadow-2xl mt-[50px] transition duration-[0.2s] ease-in delay-[0.1s] hover:scale-[1.1] hover:cursor-pointer"
-            >
-              <div class="mt-[5%] ml-[5%] mr-[20%] pointer-events-none">
-                <h1 class="text-xl font-bold text-black">Viral Tweet</h1>
-                <p class="mt-2 leading-7 text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur.
-                </p>
+              <!-- learn more button  -->
+              <button
+                id="card2-learn-more-button"
+                type="button"
+                class="mt-[50px] ml-[20px] bg-[#65afa6] hover:bg-buttonColorHover rounded-full w-[135px] h-[40px] text-gray-200 text-lg transition duration-50 hover:ease-in hover:delay-150 font-semibold"
+              >
+                Learn More
+              </button>
+              <!-- Social Media links  -->
+              <div class="flex absolute mt-[40px] mx-[5%]">
+                <p class="text-white text-lg mt-[5px] font-medium">Share:</p>
+                <button
+                  id="card2-twitter-button"
+                  type="button"
+                  class="bg-[#65afa6] hover:bg-buttonColorHover rounded-full w-[40px] h-[40px] text-gray-200 text-[20px] mx-2 transition duration-50 hover:ease-in hover:delay-150"
+                >
+                  <i class="fab fa-twitter"></i>
+                </button>
+                <button
+                  id="card2-facebook-button"
+                  type="button"
+                  class="bg-[#65afa6] hover:bg-buttonColorHover rounded-full w-[40px] h-[40px] text-gray-200 text-[20px] mx-2 transition duration-50 hover:ease-in hover:delay-150"
+                >
+                  <i class="fab fa-facebook"></i>
+                </button>
+                <button
+                  id="card2-pinterest-button"
+                  type="button"
+                  class="bg-[#65afa6] hover:bg-buttonColorHover rounded-full w-[40px] h-[40px] text-gray-200 text-[20px] mx-2 transition duration-50 hover:ease-in hover:delay-150"
+                >
+                  <i class="fab fa-pinterest"></i>
+                </button>
               </div>
-              <img
-                class="w-full h-[200px] object-contain absolute mt-10"
-                src="../assets/undraw_viral_tweet_gndb.png"
-              />
             </div>
           </div>
         </div>
